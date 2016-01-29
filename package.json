@@ -1,0 +1,19 @@
+{
+  "name": "react-native-cookbook",
+  "version": "1.0.0",
+  "description": "React Native Cookbook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dabit3/react-native-cookbook.git"
+  },
+  "author": "Nader Dabit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dabit3/react-native-cookbook/issues"
+  },
+  "homepage": "https://github.com/dabit3/react-native-cookbook#readme"
+}
