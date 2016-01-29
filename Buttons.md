@@ -17,7 +17,7 @@ Buttons can be created with the following components:
 Here are a few examples of styling buttons:
 
 ```
-<TouchableOpacity style={ styles.button }>
+<TouchableOpacity underlayColor="efefef" style={ styles.button }>
 	 <Text style={ styles.buttonText }>Button Text</Text>
 </TouchableOpacity>
 
