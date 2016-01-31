@@ -33,3 +33,21 @@ buttonText: {
 	fontSize:18
 }
 ```
+
+```
+<TouchableHighlight underlayColor="efefef" style={ styles.button }>
+	 <Text style={ styles.buttonText }>Button Text</Text>
+</TouchableHighlight>
+
+button: {
+	height: 80,
+	marginLeft:40, 
+	marginRight:40,
+	backgroundColor: 'ededed', 
+	justifyContent: 'center',
+	alignItems: 'center'
+}
+buttonText: {
+	fontSize:18
+}
+```
