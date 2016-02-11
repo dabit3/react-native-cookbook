@@ -15,7 +15,7 @@ import React, {
   StyleSheet
 } = from 'react-native';
 
-var styles = StyleSheet.create({
+let styles = StyleSheet.create({
     header: {
       color: 'white',
       fontSize:22
@@ -28,7 +28,7 @@ var styles = StyleSheet.create({
 3.Multiple styles from a StyleSheet
 
 ```
-var styles = StyleSheet.create({
+let styles = StyleSheet.create({
     header: {
       color: 'white',
       fontSize:22
@@ -47,10 +47,10 @@ var styles = StyleSheet.create({
 <Text style={[ styles.header, { color: 'orange' } ]}>Hello World</Text>
 ```
 
-5.Dynamically
+5.Dynamically (1)
 
 ```
-var styles = StyleSheet.create({
+let styles = StyleSheet.create({
     shaded: {
       backgroundColor: 'ededed'
     }
@@ -68,4 +68,20 @@ let content = people.map((p, i) => {
   return <View key={ i } style={ checkIndex(i) }><Text>{ p.name }</Text></View>
 })
 
+```
+
+Dynamically (2)
+
+```
+let styles = StyleSheet.create({
+    chosen: {
+      backgroundColor: 'blue'
+    }
+})
+
+let people = [ { name: 'chris', chosen: true }, { name: 'ashley', chosen: true }, { name: 'justin', chosen: false }, { name: 'amy', chosen: true } ]
+
+let content = people.map((p, i) => {
+  return <View key={ i } style={ p.chosen && styles.chosen }><Text>{ p.name }</Text></View>
+})
 ```
