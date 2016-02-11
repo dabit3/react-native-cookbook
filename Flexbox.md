@@ -4,7 +4,7 @@ React Native uses Flexbox to control layout. Here, I will try to go over scenari
 
 All of the Flexbox properties of React Native can be found [here](https://facebook.github.io/react-native/docs/flexbox.html#content)
 
-1.Align items center vertically
+1. Align items center vertically
 
 ```
 import {
@@ -22,7 +22,7 @@ var styles = StyleSheet.create({
 })
 ```
 
-2.Align items top
+2. Align items top
 
 ```
 import {
@@ -40,7 +40,7 @@ var styles = StyleSheet.create({
 })
 ```
 
-3.Align items bottom
+3. Align items bottom
 
 ```
 import {
@@ -58,7 +58,7 @@ var styles = StyleSheet.create({
 })
 ```
 
-4.space-between
+4. space-between
 
 `space-between` basically places all items equally along the main axis. Any leftover space that the flex items don't take up is equally distributed between the items.
 
