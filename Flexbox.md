@@ -69,6 +69,8 @@ import {
 
 <View style={ styles.container }>
   <Text>This text will be centered vertically</Text>
+  <Text>This text will be centered vertically</Text>
+  <Text>This text will be centered vertically</Text>
 </View>
 
 var styles = StyleSheet.create({
