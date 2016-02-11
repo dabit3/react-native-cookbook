@@ -15,6 +15,7 @@ There are two out of the box ways to implement routing in React Native:
   `renderScene` - This is the function that the navigator uses to render the scene for a given route.
   `React.createElement` - Allows you to manually create a React element. To add properties to an element, we pass a properties object as the second argument and you can also optionally pass children to the third argument.
 
+  ```
   import {
     Navigator,
     Component
@@ -38,3 +39,4 @@ There are two out of the box ways to implement routing in React Native:
       myVar: 'some variable'
     }
   })
+  ```
