@@ -2,13 +2,13 @@
 
 Styles can be applied in the following ways:
 
-1. Inline
+1.Inline
 
 ```
 <Text style={{ fontSize:22, color: 'white' = }}>Hello World</Text>
 ```
 
-2. With a StyleSheet
+2.With a StyleSheet
 
 ```
 import React, {
@@ -25,7 +25,7 @@ var styles = StyleSheet.create({
 <Text style={ styles.header }>Hello World</Text>
 ```
 
-3. Multiple styles from a StyleSheet
+3.Multiple styles from a StyleSheet
 
 ```
 var styles = StyleSheet.create({
@@ -41,13 +41,13 @@ var styles = StyleSheet.create({
 <Text style={[ styles.header, styles.orange ]}>Hello World</Text>
 ```
 
-4. Multiple styles, inline and from a StyleSheet:
+4.Multiple styles, inline and from a StyleSheet:
 
 ```
 <Text style={[ styles.header, { color: 'orange' } ]}>Hello World</Text>
 ```
 
-5. Dynamically
+5.Dynamically
 
 ```
 var styles = StyleSheet.create({
