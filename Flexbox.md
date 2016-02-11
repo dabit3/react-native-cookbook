@@ -58,7 +58,9 @@ var styles = StyleSheet.create({
 })
 ```
 
-4.Align items bottom
+4.space-between
+
+`space-between` basically places all items equally along the main axis. Any leftover space that the flex items don't take up is equally distributed between the items.
 
 ```
 import {
