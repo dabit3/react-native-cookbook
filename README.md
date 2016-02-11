@@ -8,6 +8,8 @@ This is an ongoing project to build a resource for achieving functionality and b
 
 #### Styling
 
+1. [Basic Styling Concepts](https://github.com/dabit3/react-native-cookbook/blob/master/Styling.md)
+
 #### Routing
 
 #### Animations

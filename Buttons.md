@@ -28,7 +28,7 @@ button: {
 	backgroundColor: 'ededed', 
 	justifyContent: 'center',
 	alignItems: 'center'
-}
+},
 buttonText: {
 	fontSize:18
 }
@@ -46,7 +46,7 @@ button: {
 	backgroundColor: 'ededed', 
 	justifyContent: 'center',
 	alignItems: 'center'
-}
+},
 buttonText: {
 	fontSize:18
 }
