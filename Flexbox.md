@@ -4,80 +4,80 @@ React Native uses Flexbox to control layout. Here, I will try to go over scenari
 
 All of the Flexbox properties of React Native can be found [here](https://facebook.github.io/react-native/docs/flexbox.html#content)
 
- 1. Align items center vertically
+1. Align items center vertically
 
-```
-import {
-  StyleSheet
-} from 'react-native'
+  ```
+  import {
+    StyleSheet
+  } from 'react-native'
 
-<View style={ styles.container }>
-  <Text>This text will be centered vertically</Text>
-</View>
+  <View style={ styles.container }>
+    <Text>This text will be centered vertically</Text>
+  </View>
 
-var styles = StyleSheet.create({
-    container: {
-      justifyContent: 'center',
-    }
-})
-```
+  var styles = StyleSheet.create({
+      container: {
+        justifyContent: 'center',
+      }
+  })
+  ```
 
- 2. Align items top
+2. Align items top
 
-```
-import {
-  StyleSheet
-} from 'react-native'
+  ```
+  import {
+    StyleSheet
+  } from 'react-native'
 
-<View style={ styles.container }>
-  <Text>This text will be centered vertically</Text>
-</View>
+  <View style={ styles.container }>
+    <Text>This text will be centered vertically</Text>
+  </View>
 
-var styles = StyleSheet.create({
-    container: {
-      justifyContent: 'flex-start',
-    }
-})
-```
+  var styles = StyleSheet.create({
+      container: {
+        justifyContent: 'flex-start',
+      }
+  })
+  ```
 
- 3. Align items bottom
+3. Align items bottom
 
-```
-import {
-  StyleSheet
-} from 'react-native'
+  ```
+  import {
+    StyleSheet
+  } from 'react-native'
 
-<View style={ styles.container }>
-  <Text>This text will be centered vertically</Text>
-</View>
+  <View style={ styles.container }>
+    <Text>This text will be centered vertically</Text>
+  </View>
 
-var styles = StyleSheet.create({
-    container: {
-      justifyContent: 'flex-end',
-    }
-})
-```
+  var styles = StyleSheet.create({
+      container: {
+        justifyContent: 'flex-end',
+      }
+  })
+  ```
 
- 4. space-between
+4. space-between
 
-`space-between` basically places all items equally along the main axis. Any leftover space that the flex items don't take up is equally distributed between the items.
+  `space-between` basically places all items equally along the main axis. Any leftover space that the flex items don't take up is equally distributed between the items.
 
-```
-import {
-  StyleSheet
-} from 'react-native'
+  ```
+  import {
+    StyleSheet
+  } from 'react-native'
 
-<View style={ styles.container }>
-  <Text>This text will be centered vertically</Text>
-  <Text>This text will be centered vertically</Text>
-  <Text>This text will be centered vertically</Text>
-</View>
+  <View style={ styles.container }>
+    <Text>This text will be centered vertically</Text>
+    <Text>This text will be centered vertically</Text>
+    <Text>This text will be centered vertically</Text>
+  </View>
 
-var styles = StyleSheet.create({
-    container: {
-      justifyContent: 'space-between',
-      height:100,
-      backgroundColor: 'ededed'
-    }
-})
-```
+  var styles = StyleSheet.create({
+      container: {
+        justifyContent: 'space-between',
+        height:100,
+        backgroundColor: 'ededed'
+      }
+  })
+  ```
